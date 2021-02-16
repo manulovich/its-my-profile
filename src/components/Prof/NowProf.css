@@ -1,0 +1,18 @@
+.now-prof {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.now-prof__name {
+    margin: 0px 20px 0px 0px;
+    font-size: 16px;
+    color: #F9F8F9;
+    font-weight: bold;
+}
+.now-prof__icon {
+    flex: 0 0 40px;
+    height: 40px;
+    background-color: #F9F8F9;
+    border-radius: 50%;
+}

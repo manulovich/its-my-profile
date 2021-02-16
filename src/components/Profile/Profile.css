@@ -1,0 +1,35 @@
+.profile__main {
+    display: flex;
+    width: 100%;
+    margin: 0px calc(100% / 6);
+}
+.profile__avatars {
+    flex: 0 0 calc(100% / 3);
+}
+.profile__avatars img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.profile__name-and-link {
+    margin: 0px 0px 0px 20px;
+    flex: 0 0 calc(100% / 3);
+}
+.profile__name {
+    display: block;
+    font-size: 24px;
+    padding: 10px 16px;
+    text-align: center;
+}
+.profile__link-to-git {
+    margin: 20px 0px 0px 0px;
+    padding: 5px 0px;
+    display: block;
+    color: #FB4547;
+    font-size: 18px;
+    text-align: center;
+}
+
+.profile__social-networks {
+    margin: 20px calc(100% / 6) 0px calc(100% / 6);;
+}

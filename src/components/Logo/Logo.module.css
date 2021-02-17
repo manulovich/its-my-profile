@@ -3,8 +3,8 @@
     height: 30px;
     width: 100%;
     border-radius: 10px;
-    background-color: #FB4547;
-    color: #F9F8F9;
+    background-color: #fb4547;
+    color: #f9f8f9;
     font-size: 0px;
     font-weight: bold;
     cursor: pointer;
@@ -13,7 +13,7 @@
 .logo__part {
     display: flex;
     align-items: center;
-    transition: .3s;
+    transition: 0.3s;
 }
 /* hover */
 .logo:hover {
@@ -32,8 +32,8 @@
     flex: 1;
     height: 100%;
     justify-content: center;
-    background-color: #F9F8F9;
-    color: #2C3C4E;
+    background-color: #f9f8f9;
+    color: #2c3c4e;
     font-size: 20px;
 }
 .logo__part--left {

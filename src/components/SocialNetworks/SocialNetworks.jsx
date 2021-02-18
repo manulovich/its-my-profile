@@ -6,7 +6,7 @@ import twitter from './images/twitter.png';
 
 const SocialNetworks = () => {
     return (
-        <div className="social-networks profile__social-networks main__item--box-shadow">
+        <div className="social-networks profile__social-networks item--box-shadow">
             <div className="social-networks__item">
                 <img src={vk} alt="vkontakte"/>
             </div>

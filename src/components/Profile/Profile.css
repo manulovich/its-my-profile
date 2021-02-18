@@ -1,11 +1,12 @@
 .profile {
     background-color: #fff;
-    padding: 20px 0px;
+}
+.profile--container {
+    padding: 20px calc(100% / 12);
 }
 .profile__main {
     display: flex;
     width: 100%;
-    margin: 0px calc(100% / 6);
 }
 .profile__avatars {
     flex: 0 0 calc(100% / 3);
@@ -17,7 +18,7 @@
 }
 .profile__name-and-link {
     margin: 0px 0px 0px 20px;
-    flex: 0 0 calc(100% / 3);
+    flex: 1;
 }
 .profile__name {
     display: block;
@@ -35,5 +36,8 @@
 }
 
 .profile__social-networks {
-    margin: 20px calc(100% / 6) 0px calc(100% / 6);;
+    margin: 20px 0px 0px 0px;
+}
+.porfile__post-section {
+    margin: 100px 0px 0px 0px;
 }

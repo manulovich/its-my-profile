@@ -4,7 +4,7 @@ import Avatar from './ava.jpg';
 
 const Profile = () => {
     return (
-        <section className="profile main__content main__item--box-shadow">
+        <section className="profile item--box-shadow">
             <div className="profile__main">
                 <div className="profile__avatars main__item--box-shadow">
                     <img src={Avatar} alt="profile"/>

@@ -1,3 +1,7 @@
+.profile {
+    background-color: #fff;
+    padding: 20px 0px;
+}
 .profile__main {
     display: flex;
     width: 100%;

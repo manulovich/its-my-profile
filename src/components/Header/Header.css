@@ -1,9 +1,5 @@
 .header {
     background-color: #2C3C4E;
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
 }
 .header__body{
     display: flex;

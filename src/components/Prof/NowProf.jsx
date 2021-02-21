@@ -1,8 +1,8 @@
 import './NowProf.css';
 
-const NowProf = () => {
+const NowProf = (props) => {
     return (
-        <div className="now-prof header__now-prof">
+        <div className={`now-prof ${props.additionalClass || ' '}`}>
             <h3 className="now-prof__name">frontend developer</h3>
             <div className="now-prof__icon"></div>
         </div>

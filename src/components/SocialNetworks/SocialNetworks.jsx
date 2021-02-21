@@ -4,9 +4,9 @@ import facebook from './images/facebook.png';
 import inst from './images/instagram.png';
 import twitter from './images/twitter.png';
 
-const SocialNetworks = () => {
+const SocialNetworks = (props) => {
     return (
-        <div className="social-networks profile__social-networks item--box-shadow">
+        <div className={`social-networks ${props.additionalClass || ' '}`}>
             <div className="social-networks__item">
                 <img src={vk} alt="vkontakte"/>
             </div>

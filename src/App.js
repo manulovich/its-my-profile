@@ -8,7 +8,7 @@ const App = () => {
     <div className="app">
       <Header />
       <main className="main container">
-        <Aside />
+        <Aside additionalClass="item--box-shadow"/>
         <Profile/>
       </main>
     </div>

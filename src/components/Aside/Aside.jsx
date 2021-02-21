@@ -1,9 +1,9 @@
 import './Aside.css';
 
-const Aside = () => {
+const Aside = (props) => {
     return (
         <aside className="aside">
-            <nav className="nav aside__nav item--box-shadow">
+            <nav className={`nav aside__nav ${props.additionalClass || ' '}`}>
                 <button className="nav__link">profile</button>
                 <button className="nav__link">work</button>
                 <button className="nav__link">to write</button>

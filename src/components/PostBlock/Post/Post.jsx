@@ -3,7 +3,7 @@ import Response from '../../Response/Response';
 
 const Post = (props) => {
     return (
-        <article className="blog__post post">
+        <article className={`${props.additionalClass || ' '} post`}>
             <p className="post__p">
                 {props.message}
             </p>

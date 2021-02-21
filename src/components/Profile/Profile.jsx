@@ -3,7 +3,7 @@ import SocialNetworks from '../SocialNetworks/SocialNetworks';
 import PostBlock from '../PostBlock/PostBlock';
 import Avatar from './ava.jpg';
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <section className="profile profile--container item--box-shadow">
             <div className="profile__main">
@@ -16,8 +16,8 @@ const Profile = () => {
                 </div>
             </div>
             
-            <SocialNetworks/>
-            <PostBlock />
+            <SocialNetworks additionalClass={`profile__social-networks ${props.additionalClass}`}/>
+            <PostBlock additionalClass="porfile__post-section" />
         </section>
     );
 };

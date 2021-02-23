@@ -9,7 +9,9 @@ const App = () => {
       <Header />
       <main className="main container">
         <Aside additionalClass="item--box-shadow"/>
-        <Profile/>
+        <div className="main__content">
+        	<Profile />
+        </div>
       </main>
     </div>
   );
